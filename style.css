@@ -1,0 +1,23 @@
+
+.calculator{
+    width: 450px;
+    height: 460px;
+    margin-top: 150px;
+    background-color:rgb(93, 93, 93);
+    justify-self: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    
+}
+
+
+#display{
+    width: 80%;
+    height: 30px;
+    margin-left: 42px;
+    margin-top: 20px;
+    background-color: white;
+    
+    
+}
+    
