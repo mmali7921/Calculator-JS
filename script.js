@@ -8,7 +8,7 @@ function clearDisplay() {
 
 function deleteChar() {
   var exp = document.getElementById("display").value;
-  document.getElementById("display").value = exp.substring(0, display.length - 1);
+  document.getElementById("display").value = exp.substring(0, exp.length - 1);
 }
 
 function calculate() {
@@ -17,10 +17,10 @@ function calculate() {
 }
 
 function toggleSign() {
-  var display = document.getElementById("display").value;
-  if (display.charAt(0) == "-") {
-    document.getElementById("display").value = display.substring(1);
+  var exp = document.getElementById("display").value;
+  if (exp.charAt(0) == "-") {
+    document.getElementById("display").value = exp.substring(1);
   } else {
-    document.getElementById("display").value = "-" + display;
+    document.getElementById("display").value = "-" + exp;
   }
 }
