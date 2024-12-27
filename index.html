@@ -13,8 +13,42 @@
             <div class="output">
                 <input type="text" id="display" disabled>
             </div>
-            
-        </div>
+
+            <div class="buttons">
+                <div class="row" >
+                    <button class="f1" onclick="clearDisplay()">C</button>
+                    <button class="f1" onclick="deleteChar()">DEL</button>
+                    <button class="f1" onclick="appendChar('%')">%</button>
+                    <button class="f1" onclick="appendChar('/')">/</button>
+                </div>
+            </div>
+            <div class="row">
+                <button onclick="appendChar('7')">7</button>
+                <button onclick="appendChar('8')">8</button>
+                <button onclick="appendChar('9')">9</button>
+                <button onclick="appendChar('*')">x</button>
+            </div>
+            <div class="row">
+                <button onclick="appendChar('4')">4</button>
+                <button onclick="appendChar('5')">5</button>
+                <button onclick="appendChar('6')">6</button>
+                <button onclick="appendChar('-')">-</button>
+            </div>
+            <div class="row">
+                <button onclick="appendChar('1')">1</button>
+                <button onclick="appendChar('2')">2</button>
+                <button onclick="appendChar('3')">3</button>
+                <button onclick="appendChar('+')">+</button>
+        
+            </div>
+            <div class="row">
+                <button onclick="toggleSign()">+/-</button>
+                <button onclick="appendChar('0')">0</button>
+                <button onclick="appendChar('.')">.</button>
+                <button onclick="calculate()">=</button>
+
+            </div>
+        </div>    
 
 
     </div>
